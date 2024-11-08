@@ -16,6 +16,7 @@ module.exports = {
       backgroundColor: {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
+        card: "var(--card)",
       },
       borderRadius: {
         lg: "var(--radius)",

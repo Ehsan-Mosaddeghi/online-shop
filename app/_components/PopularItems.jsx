@@ -27,18 +27,20 @@ const PopularItems = async () => {
             <CarouselItem key={item.id} className="md:basis-1/2 lg:basis-1/5 ">
               <div className="p-1">
                 <Card>
-                  <CardContent className="flex flex-col aspect-square hover:text-blue-500 hover:shadow-2xl duration-300 p-6 ">
-                    <Link href={`product/123`}>
+                  <CardContent className=" bg-card rounded-xl aspect-square hover:text-green-800 hover:shadow-2xl duration-300 p-3 ">
+                    <Link href={`product/123`} className="flex flex-col gap-1">
                       <Image
                         src={item.image}
                         width={300}
                         height={100}
                         alt={item.title}
-                        className="aspect-square"
+                        className="aspect-square rounded-xl self-center"
                       />
                       <p className="opacity-50">{item.category}</p>
                       <h2 className="line-clamp-1">{item.title}</h2>
-                      <p className="font-sans">{formatCurrency(item.price)}</p>
+                      <p className="font-sans text-green-900 text-lg">
+                        {formatCurrency(item.price)}
+                      </p>
                     </Link>
                   </CardContent>
                 </Card>
