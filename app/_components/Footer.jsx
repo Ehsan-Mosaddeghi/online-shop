@@ -1,8 +1,11 @@
 const Footer = () => {
   return (
-    <footer className="w-full p-4 bg-primary">
-      <p className="text-center">&copy; Copyright 2024</p>
-    </footer>
+    <>
+      <footer className="w-full p-8 bg-secondary border-t border-t-gray-500">
+        <p className="text-center">© 2024 All rights reserved</p>
+      </footer>
+      <div className="block w-full h-2 bg-[linear-gradient(90deg,#1f1f1f,var(--primary),#1f1f1f)]"></div>
+    </>
   );
 };
 

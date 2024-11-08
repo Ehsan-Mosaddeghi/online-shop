@@ -4,6 +4,8 @@
 
 :root {
   --primary: rgb(98, 1, 60);
+  --primary-dark: rgb(61, 1, 37);
+
   --secondary: rgb(162, 173, 184);
   --card: rgb(140, 155, 169);
 

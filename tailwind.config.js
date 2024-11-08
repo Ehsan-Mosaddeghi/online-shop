@@ -15,6 +15,7 @@ module.exports = {
       },
       backgroundColor: {
         primary: "var(--primary)",
+        "primary-dark": "var(--primary-dark)",
         secondary: "var(--secondary)",
         card: "var(--card)",
       },

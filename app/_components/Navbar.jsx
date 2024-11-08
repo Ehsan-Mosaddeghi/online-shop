@@ -10,7 +10,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-full pt-6 bg-primary text-slate-200">
+    <nav className="w-full py-6  border-b border-slate-300 bg-secondary">
       <div className="container mx-auto flex justify-between">
         <Link href="/" className="">
           LOGO
