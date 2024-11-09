@@ -6,7 +6,7 @@
   --primary: rgb(98, 1, 60);
   --primary-dark: rgb(61, 1, 37);
 
-  --secondary: rgb(162, 173, 184);
+  --secondary: rgb(209, 222, 235);
   --card: rgb(140, 155, 169);
 
   &.dark {

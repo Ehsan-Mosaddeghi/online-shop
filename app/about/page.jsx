@@ -1,3 +1,9 @@
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import Image from "next/image";
 
 const page = () => {
@@ -50,6 +56,41 @@ const page = () => {
           className="aspect-square rounded-sm"
         />
       </div>
+
+      <Accordion
+        type="single"
+        collapsible
+        className="col-span-5 w-full text-primary mt-10 "
+      >
+        <AccordionItem value="item-1 ">
+          <AccordionTrigger>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+            qui.?
+          </AccordionTrigger>
+          <AccordionContent>
+            Yes. It adheres to the WAI-ARIA design pattern.
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-2">
+          <AccordionTrigger>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
+            facilis vero, nisi nulla laboriosam in!?
+          </AccordionTrigger>
+          <AccordionContent>
+            Yes. It comes with default styles that matches the other
+            components&apos; aesthetic.
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-3">
+          <AccordionTrigger>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.?
+          </AccordionTrigger>
+          <AccordionContent>
+            Yes. It&apos;s animated by default, but you can disable it if you
+            prefer.
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
     </section>
   );
 };
