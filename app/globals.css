@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --primary: rgb(98, 1, 60);
+  --primary: rgb(72, 101, 149);
   --primary-dark: rgb(27, 27, 27);
 
   --secondary: rgb(27, 27, 27);
-  --card: rgb(140, 155, 169);
+  --card: rgb(72, 101, 149);
 
   &.dark {
     --primary: rgb(4, 21, 37);

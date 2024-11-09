@@ -28,11 +28,11 @@ const PopularItems = async () => {
               key={item.id}
               className="md:basis-1/3 lg:basis-1/5 xl:basis-1/6"
             >
-              <div className="p-1 flex items-center justify-center">
-                <Card className="w-[200px] h-[282x]">
-                  <CardContent className=" bg-card rounded-xl aspect-square hover:text-green-800 hover:shadow-2xl duration-300 p-2">
+              <div className="p-1 flex items-center  justify-center">
+                <Card className="w-[200px] h-[282x] hover:-translate-y-1 duration-300">
+                  <CardContent className=" bg-card rounded-xl aspect-square hover:text-neutral-300 hover:shadow-2xl duration-300 p-2">
                     <Link
-                      href={`product/123`}
+                      href={`product/${item.id}`}
                       className="flex flex-col relative gap-1"
                     >
                       <div className="aspect-square w-[150px] self-center relative">
@@ -45,7 +45,7 @@ const PopularItems = async () => {
                       </div>
                       <p className="opacity-50">{item.category}</p>
                       <h2 className="line-clamp-1">{item.title}</h2>
-                      <p className="font-sans text-green-900 text-lg">
+                      <p className="font-sans  text-lg">
                         {formatCurrency(item.price)}
                       </p>
                     </Link>
