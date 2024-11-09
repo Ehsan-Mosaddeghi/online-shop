@@ -15,7 +15,7 @@ const PopularItems = async () => {
   const data = await getProducts();
 
   return (
-    <section className="flex justify-center p-2 px-20">
+    <section className="flex justify-center text-black p-2 px-20">
       <Carousel
         opts={{
           align: "start",

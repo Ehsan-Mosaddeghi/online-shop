@@ -4,9 +4,9 @@
 
 :root {
   --primary: rgb(98, 1, 60);
-  --primary-dark: rgb(61, 1, 37);
+  --primary-dark: rgb(27, 27, 27);
 
-  --secondary: rgb(209, 222, 235);
+  --secondary: rgb(27, 27, 27);
   --card: rgb(140, 155, 169);
 
   &.dark {

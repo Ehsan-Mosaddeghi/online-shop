@@ -10,8 +10,8 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-full py-4  border-b border-slate-300 bg-secondary">
-      <div className="container mx-auto flex justify-between">
+    <nav className="w-full py-4  text-slate-100 border-b border-b-neutral-700 bg-secondary">
+      <div className="container mx-auto  flex justify-between">
         <Link href="/" className="">
           LOGO
         </Link>

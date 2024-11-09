@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="w-full flex flex-col py-[9.5rem]  text-slate-200 items-center gap-5 bg-gradient-to-b from-primary to-secondary ">
+    <div className="w-full flex flex-col py-[9.5rem] text-slate-200 items-center gap-5 ">
       <h1 className="text-4xl">
         Your Style <strong className="text-blue-500">Your Way</strong>
       </h1>
