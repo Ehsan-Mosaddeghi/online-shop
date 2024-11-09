@@ -3,8 +3,8 @@ import Image from "next/image";
 const page = () => {
   return (
     <section className="grid grid-cols-5 w-full mx-auto container my-10 items-center gap-12">
-      <div className="col-span-3 leading-8">
-        <h1 className="text-2xl text-primary">Lorem ipsum dolor sit amet.</h1>
+      <div className="col-span-3 leading-8 col-start-2 md:col-start-1">
+        <h1 className="text-3xl text-primary">Lorem ipsum dolor sit amet.</h1>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet
           molestiae suscipit modi, alias maiores sequi placeat ad deleniti
@@ -16,18 +16,18 @@ const page = () => {
           tempora quos illum aperiam ipsam dolore?
         </p>
       </div>
-      <div className="col-span-2">
+      <div className="col-span-3 col-start-2 md:col-start-4 md:col-span-2">
         <Image
           src="/preview.webp"
           alt="shoping store"
           width={400}
           height={400}
-          className="aspect-square"
+          className="aspect-square rounded-sm"
         />
       </div>
 
-      <div className="col-span-3 col-start-3 leading-8">
-        <h1 className="text-2xl text-primary">Lorem ipsum dolor sit amet.</h1>
+      <div className="col-span-3 col-start-2 md:col-start-3 leading-8">
+        <h1 className="text-3xl text-primary">Lorem ipsum dolor sit amet.</h1>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
           molestiae illum quis labore asperiores voluptas sunt exercitationem,
@@ -41,13 +41,13 @@ const page = () => {
           impedit.
         </p>
       </div>
-      <div className="col-span-2 row-start-2">
+      <div className="col-span-3 col-start-2 md:col-span-2 row-start-3 md:row-start-2">
         <Image
           src="/family.webp"
           alt="shoping store"
           width={400}
           height={400}
-          className="aspect-square"
+          className="aspect-square rounded-sm"
         />
       </div>
     </section>

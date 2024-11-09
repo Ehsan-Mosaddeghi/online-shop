@@ -24,18 +24,25 @@ const PopularItems = async () => {
       >
         <CarouselContent>
           {data.map((item) => (
-            <CarouselItem key={item.id} className="md:basis-1/2 lg:basis-1/5 ">
-              <div className="p-1">
-                <Card>
-                  <CardContent className=" bg-card rounded-xl aspect-square hover:text-green-800 hover:shadow-2xl duration-300 p-3 ">
-                    <Link href={`product/123`} className="flex flex-col gap-1">
-                      <Image
-                        src={item.image}
-                        width={300}
-                        height={100}
-                        alt={item.title}
-                        className="aspect-square rounded-xl self-center"
-                      />
+            <CarouselItem
+              key={item.id}
+              className="md:basis-1/3 lg:basis-1/5 xl:basis-1/6"
+            >
+              <div className="p-1 flex items-center justify-center">
+                <Card className="w-[200px] h-[282x]">
+                  <CardContent className=" bg-card rounded-xl aspect-square hover:text-green-800 hover:shadow-2xl duration-300 p-2">
+                    <Link
+                      href={`product/123`}
+                      className="flex flex-col relative gap-1"
+                    >
+                      <div className="aspect-square w-[150px] self-center relative">
+                        <Image
+                          src={item.image}
+                          alt={item.title}
+                          fill
+                          className="rounded-xl"
+                        />
+                      </div>
                       <p className="opacity-50">{item.category}</p>
                       <h2 className="line-clamp-1">{item.title}</h2>
                       <p className="font-sans text-green-900 text-lg">
