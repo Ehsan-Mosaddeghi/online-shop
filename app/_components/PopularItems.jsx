@@ -40,6 +40,7 @@ const PopularItems = async () => {
                           src={item.image}
                           alt={item.title}
                           fill
+                          placeholder="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mM8+BMAAoEBvJSWGnYAAAAASUVORK5CYII="
                           className="rounded-xl"
                         />
                       </div>

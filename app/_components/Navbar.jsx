@@ -11,12 +11,12 @@ const Navbar = () => {
 
   return (
     <nav className="w-full py-4  text-slate-100 border-b border-b-neutral-700 bg-secondary">
-      <div className="container mx-auto  flex justify-between">
-        <Link href="/" className="">
+      <div className="container mx-auto  px-4 flex justify-between">
+        <Link href="/" className="my-auto">
           LOGO
         </Link>
 
-        <ul className="flex items-center gap-10">
+        <ul className="flex items-center gap-1">
           {menuItems.map(({ name, to }) => (
             <NavbarItem key={to} name={name} to={to} />
           ))}
