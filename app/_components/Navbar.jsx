@@ -5,7 +5,7 @@ import { ShoppingCartIcon } from "lucide-react";
 const Navbar = () => {
   const menuItems = [
     { name: "About", to: "about" },
-    { name: "Categories", to: "categories" },
+    { name: "Products", to: "products" },
     { name: <ShoppingCartIcon />, to: "cart" },
   ];
 

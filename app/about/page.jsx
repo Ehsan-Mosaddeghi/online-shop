@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const page = () => {
   return (
-    <section className="grid grid-cols-5 w-full mx-auto container p-8 my-10 items-center gap-12">
+    <section className="grid  md:grid-cols-5 w-full mx-auto container p-4 md:p-8 my-10 items-center gap-12">
       <div className="col-span-3 leading-8 col-start-2 md:col-start-1">
         <h1 className="text-3xl text-primary">Lorem ipsum dolor sit amet.</h1>
         <p>
