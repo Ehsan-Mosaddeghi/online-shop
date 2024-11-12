@@ -5,7 +5,7 @@ const NavbarItem = ({ name, to }) => {
   return (
     <li>
       <Button variant="ghost" asChild>
-        <Link href={to} className="text-lg">
+        <Link href={`/${to}`} className="text-lg">
           {name}
         </Link>
       </Button>
